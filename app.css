@@ -1,0 +1,99 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #ffd86e;
+    font-weight:400;
+    
+}
+body,
+html {
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+#header {
+    background:url("imgs/folio.png");
+    background-size: cover;
+    background-position: center;
+    width:100%;
+   height:40rem;
+
+}
+#header .row{
+    height:100%;
+}
+#header .display-2{
+    font-weight:700;
+    padding-top: 20%;
+    
+    
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                     0px 8px 13px rgba(0,0,0,0.1),
+                     0px 18px 23px rgba(0,0,0,0.1);
+    
+    
+}
+.shadow{
+    text-shadow: 0px 1px 2px rgba(0,0,0,0.4),
+                    0px 4px 6px rgba(0,0,0,0.1),
+                    0px 12px 15px rgba(0,0,0,0.1);
+}
+
+#mainNav .navbar-brand{
+    font-size:1.5rem;
+    font-weight:700;
+    letter-spacing:0.15rem;
+    color:rgb(44, 44, 44);
+
+}
+#mainNav .dark:hover{
+    color:black;
+    letter-spacing:0.2rem;
+    font-weight:700;
+    font-size:1.5rem;
+
+    
+
+    
+
+}
+
+#mainNav .nav-link{
+    color:rgb(44, 44, 44);
+    font-weight:400;
+    font-size:1.5rem;
+}
+.spans:hover{
+    font-weight:700;
+
+
+}
+.navbar.scrolled{
+    background:  #ffd86eb4;
+    transition: background 500ms;
+}
+.blurb p{
+    font-size:1.5rem;
+    font-weight:100;
+    line-height:2;
+
+}
+.blurb h2{
+    font-size:2.5rem;
+    font-weight:500;
+
+}
+hr {
+    width: 100%;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    
+}
+.input{
+    width:35rem;
+}
+footer{
+    background-color: #ffd86eb4;
+    background-size:cover;
+}
